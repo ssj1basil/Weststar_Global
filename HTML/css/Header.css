@@ -18,12 +18,17 @@ ul.navbar-nav#navbar-nav
 
 }
 
-.btn-outline-success
+.btn-outline-danger
 {
     border: none;
     border-radius:40px;
 }
 
+.btn-outline-danger:hover
+{
+    background-color: #d11426;
+
+}
 @media (min-width: 576px)
 {.navbar-expand-sm .navbar-nav .nav-link
 {
@@ -39,7 +44,7 @@ li.nav-item a.nav-link
 }
 
 
-.btn-outline-success:hover
+.btn-outline-danger:hover
 {
     box-shadow:0px 0px 5px rgb(177, 176, 176);
     border-radius:40px;
@@ -50,3 +55,13 @@ div.img_container
     width: 15%;
     height: auto;
 }
+
+@media (max-width: 576px)
+{
+    div.img_container
+{
+    width: 40%;
+    height: auto;
+}
+}
+  
