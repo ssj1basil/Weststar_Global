@@ -8,10 +8,11 @@
     padding: 0;
 }
 
+
 /*NAV BAR*/
 .bg-dark
 {
-    background-color: black !important; 
+    background-color: black !important;
 }
 
 
@@ -21,7 +22,12 @@ ul.navbar-nav#navbar-nav
     padding-left: 25px; 
     padding-top: 10px;
     padding-bottom: 10px;
+}
 
+.navbar
+{
+    position: absolute !important;
+    z-index:2;
 }
 
 .btn-outline-danger
@@ -123,8 +129,8 @@ div.img_container
     width: 600px;
 	height: 100px;
     position: absolute;
-    color: white;
     z-index: 1;
+    color: white;
     top:0;
 	bottom: 0;
 	left: 0;
@@ -176,7 +182,7 @@ span.digitally
         height: 100px;
         position: absolute;
         color: white;
-        z-index: 1;
+        z-index:1;
         top:0;
         bottom: 0;
         left: 0;
@@ -267,6 +273,15 @@ div.about_us_text > p
 {
     font-size: 2vh;
     color: white;
+}
+
+@media (max-width: 576px)
+{
+    div.heading_container
+    {
+        margin-top: 15px;
+    }
+
 }
 
 /*FOOTER*/
