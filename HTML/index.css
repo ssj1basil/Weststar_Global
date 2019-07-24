@@ -265,9 +265,7 @@ div.about_us_heading
     display: inline;
 }
 
-div.about_us_text
-{
-}
+
 
 div.about_us_text > p
 {
@@ -282,6 +280,18 @@ div.about_us_text > p
         margin-top: 15px;
     }
 
+}
+
+/*FEATURED*/
+h1.f-section-title
+{
+    color: white;
+    margin-bottom: 50px;
+}
+.featured-section
+{
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /*FOOTER*/
