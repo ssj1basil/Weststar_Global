@@ -124,3 +124,23 @@
 	z-index: 100;
 	margin-top: -10%;
 }
+
+@media (max-width: 700px)
+{
+	.slideshow {
+		width: auto;
+		height: 300px;
+		position: relative;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	.slideshow--item {
+		width: auto;
+		height: 300px;
+		line-height: 1.5;
+		position: absolute;
+		top: 0;
+		visibility: hidden;
+	}
+}
